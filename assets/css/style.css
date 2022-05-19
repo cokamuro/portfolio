@@ -58,7 +58,13 @@ article {
     padding: 20px; 
 }
 
+td {
+    text-align: center;
+}
 
+table{
+    border-spacing: 20px;
+}
 
 #about-me-title {
     justify-content: flex-end;
@@ -124,7 +130,7 @@ a {
     box-shadow: 0 0 2px 1px var(--primary-dark);
 }
 
-#featured-profile-image{
+#featured-portfolio-image{
     width: 500px;
 }
 
@@ -140,7 +146,8 @@ a {
     }
     .profile-images{
         width: 300px;
-    }#featured-profile-image{
+    }
+    #featured-portfolio-image{
         width: 350px;
 }
 
