@@ -88,10 +88,6 @@ a {
     color: var(--highlight);
 }
 
-table {
-    align-items: center;
-}
-
 .main-titles {
     background-color: var(--primary-dark);
     color: var(--primary-light);
@@ -116,15 +112,20 @@ table {
     background-size: 100px;
 }
 
+
 .profile-images{
         border: 1px solid var(--highlight);
         border-radius: 4px;
         padding: 5px;
-        width: 500px;
+        width: 450px;
 }
 
 .profile-images:hover{
     box-shadow: 0 0 2px 1px var(--primary-dark);
+}
+
+#featured-profile-image{
+    width: 500px;
 }
 
 @media screen and (max-width: 590px) {
@@ -139,6 +140,8 @@ table {
     }
     .profile-images{
         width: 300px;
+    }#featured-profile-image{
+        width: 350px;
 }
 
   }
