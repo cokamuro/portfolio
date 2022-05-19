@@ -10,6 +10,7 @@ body {
     background-color: var(--primary-dark);
     color: var(--primary-dark);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-width: 470;
 }
 
 header {
@@ -145,10 +146,10 @@ a {
         right: auto;
     }
     .profile-images{
-        width: 300px;
+        width: 250px;
     }
     #featured-portfolio-image{
-        width: 350px;
+        width: 300px;
 }
 
   }
