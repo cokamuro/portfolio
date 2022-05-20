@@ -149,7 +149,7 @@ a {
 }
 
 /* scale down images on resize */
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 700px) {
     header h1 {
         display: inline-block;
     }
@@ -162,7 +162,7 @@ a {
     }
 
     .portfolio-images {
-        width: 250px;
+        width: 200px;
     }
 
     #featured-portfolio-image {
