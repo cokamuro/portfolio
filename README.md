@@ -1,4 +1,4 @@
-# Personal Portfolio PAge (02 Advanced CSS Challenge)
+# Personal Portfolio Page (02 Advanced CSS Challenge)
 
 [Live Site on Github.io](https://cokamuro.github.io/portfolio/)
 
