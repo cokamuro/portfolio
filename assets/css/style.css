@@ -1,3 +1,4 @@
+/* setting common color variables */
 :root {
     --primary-light: rgb(185, 185, 185);
     --primary-dark: rgb(46, 46, 46);
@@ -6,6 +7,7 @@
     --selected-dark: rgb(50,50,50);
 }
 
+/* setting main body formatting and min width */
 body {
     background-color: var(--primary-dark);
     color: var(--primary-dark);
@@ -13,6 +15,7 @@ body {
     min-width: 470;
 }
 
+/* header formatting */
 header {
     background-color: var(--primary-dark);
     color: var(--primary-light);
@@ -38,16 +41,19 @@ header nav a {
     padding: 5px;
 }
 
+/* hover pseudo*/
 header nav a:hover {
     color: var(--primary-light);
 }
 
+/* footer formatting */
 footer h4{
     background-color: var(--primary-dark);
     color: var(--highlight);
     padding-left: 20%;
 }
 
+/* set main to 95% to allow back color to spill down right side */
 main {
     width:95%;
     display: flex;
@@ -55,6 +61,7 @@ main {
     flex-wrap: wrap;
 }
 
+/* set inheritable card properties, overriding width with other classes */
 article {
     width: 33.33%;
     display: flex;
@@ -63,6 +70,7 @@ article {
     padding: 20px; 
 }
 
+/* table formatting*/
 td {
     text-align: center;
 }
@@ -71,11 +79,7 @@ table{
     border-spacing: 20px;
 }
 
-#about-me-title {
-    justify-content: flex-end;
-}
-
-
+/* short card formatting */
 .main-titles {
     width: 20%;
     display: inline-block;
@@ -86,6 +90,7 @@ table{
     justify-content: center;
 }
 
+/* long card formatting */
 .main-content {
     width: 80%;
     display: block; 
@@ -99,6 +104,7 @@ a {
     color: var(--highlight);
 }
 
+/* card formatting */
 .main-titles {
     background-color: var(--primary-dark);
     color: var(--primary-light);
@@ -117,28 +123,32 @@ a {
     display: inline;
 }
 
+/* background image on about me short card */
 #about-me {
     background-image: url("../images/profile.png");
     background-repeat: no-repeat;
     background-size: 80px;
 }
 
-
-.profile-images{
+/* card formatting */
+.portfolio-images{
         border: 1px solid var(--highlight);
         border-radius: 4px;
         padding: 5px;
         width: 450px;
 }
 
-.profile-images:hover{
+/* framing image on common portfolio image class */
+.portfolio-images:hover{
     box-shadow: 0 0 2px 1px var(--primary-dark);
 }
 
+/* featured project is supposed to be bigger */
 #featured-portfolio-image{
     width: 500px;
 }
 
+/* scale down images on resize */ 
 @media screen and (max-width: 590px) {
     header h1{
         display: inline-block;
@@ -149,7 +159,7 @@ a {
         top:auto;
         right: auto;
     }
-    .profile-images{
+    .portfolio-images{
         width: 250px;
     }
     #featured-portfolio-image{
