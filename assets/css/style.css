@@ -38,6 +38,10 @@ header nav a {
     padding: 5px;
 }
 
+header nav a:hover {
+    color: var(--primary-light);
+}
+
 footer h4{
     background-color: var(--primary-dark);
     color: var(--highlight);
